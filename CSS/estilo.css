@@ -1,0 +1,37 @@
+body{
+    background-color: #7ba412;/* Cor do plano de fundo */
+    color: #00ffaa; /* Cor da fonte */
+    font-size: 20px; /* Tamanho da fonte */
+    margin: 0; /* Margem em relação a tela */
+}/* Comentários */
+
+header{
+    border: 2px solid #000;
+    text-align: center;
+}/* Seletor do cabeçalho */
+
+li{
+    color: #fff;
+    list-style-type: none;/* Remover as bolinhas de tópicos */
+    display: inline;/* Transformar coluna em Linha */
+    border: 2px solid #000;
+    padding: 20px;
+    background-color: #000;
+}
+
+li:hover{
+    background-color: #444;
+    font-size: 30px;
+    font-family:'Trebuchet MS'; /* Definir uma fonte */
+    border: 10px solid #888;
+    background-image: url("../Imagens/rosto.jpg");
+}/* Modifica o conteúdo original da Tag */
+
+.titulo{
+    border: 2px solid #666;
+}/* chamando a classe */
+
+aside{
+    background-image: url("../Imagens/pessoas.jpg");
+    background-repeat: no-repeat;
+}
